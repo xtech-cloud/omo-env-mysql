@@ -7,7 +7,7 @@ fi
 apk add --no-cache mariadb
 apk add --no-cache mysql-client
 
-mkdir -p /omo/data/mongodb
+mkdir -p /omo/data/mysql
 
 chown -R mysql:mysql /omo/data/mysql
 
